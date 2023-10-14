@@ -5,7 +5,9 @@
 ### Project Introduction
 This repository contains implementation of my research based on the work during the 2021 Machine Larning for Visual Unerstanding course. You can see the final [presentation](https://www.youtube.com/watch?v=WEfdDxsFOCc&list=PL0E_1UqNACXDaCMnwgiM75SKIpHf2mpif&index=7) and [report](http://vip.joonseok.net/courses/mlvu_2021_1/projects/team07.pdf) which introduces our base model(seq2seq+attention). <br>
 
-![Block diagram of our model](https://github.com/Seunghoon-Yi/21-SLT-project/assets/57204784/4baab743-d4ef-4257-9c4c-960862775eff)
+
+![Block diagram of our model](https://github.com/Seunghoon-Yi/21-SLT-project/assets/57204784/d7b15ece-cfe5-4106-b114-2ced3009c37c)
+
 
 <br>
 
