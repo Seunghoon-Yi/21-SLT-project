@@ -11,7 +11,14 @@ This repository contains implementation of my research based on the work during 
 
 <br>
 
-To improve speed and achieve keypoit-free SLT, The model is constructed with a lightweight 3d CNN(C3D, R(2+1)D, S3D) to encode the video, and the transformer encoder returns **glosses**, which are word-level elements of the sign language. Finally, the decoder is trained to learn the relations between glosses and spoken language, and returns the translated text. The model is trained with [RWTH-PHOENIX-Weather 2014 dataset](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX/) which contains sign language videos from 5~30 seconds, and recorded a **BLEU-4 score of 14.45**.
+To improve speed and achieve keypoit-free SLT, We constructed our model with three components. <br>
+* **Lightweight Video encoder** <br>
+3d CNN(C3D, R(2+1)D, S3D)s to encode the video, returns the encoded features. <br>
+* **Transformer Encoder** <br>
+Contextualizes the input features and returns **glosses**, which are word-level elements of the sign language. <br>
+* **Sign Language Decoder88 <br>
+The transformer decoder learn the relations between glosses and spoken language, and returns the translated text. <br>
+The model is trained with [RWTH-PHOENIX-Weather 2014 dataset](https://www-i6.informatik.rwth-aachen.de/~koller/RWTH-PHOENIX/) which contains sign language videos from 5~30 seconds, and recorded a **BLEU-4 score of 14.45**.
 
 <br>
 
